@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="Pilot" content="Introduction to Mansedumbre">
+        <title>Basement</title>
+        
+        <audio autoplay>
+            <source src="FX/FX_Walking_Short.wav" type="audio/wav">
+        </audio>
+        
+        <style>
+            body { background-color: darkgray; }
+            #text { width: 800px; margin:auto;}
+        </style>
+        
+        <script>
+            if(localStorage.getItem("backpack") == "True")
+           {
+               localStorage.setItem("Hoffman", "Happy");
+           }
+        </script>
+    </head>
+    
+    <body>
+        <div id="text">
+            <h1 align="center">Basement</h1>
+
+            <img src="Photo/H_1.jpg" width="800" height="450" style="display: block;margin-left: auto; margin-right: auto" id="picture">
+
+            <p>You found yourself in the middle of the hallway in the baseman. There is only one door in front of you.</p> 
+
+            <h2>What will you do?</h2>
+
+            <dt>A) <a href="I_2.html">Go to IT help desk</a><br>B) <a href="F_2.html">Go left</a><br>C) <a href="F_3.html">Go right</a></dt>
+
+            <h3 align="center">Game Progress</h3 >
+            <p id="objective_1" align="center"></p>
+            <p id="objective_2" align="center"></p>
+        </div>
+        
+        <script src="Script/Game_Progress.js"></script>
+    </body>
+    
+</html>

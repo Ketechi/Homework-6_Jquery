@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="Pilot" content="Introduction to Mansedumbre">
+        <title id="ending_title"></title>
+        <audio id="ending_audio" autoplay loop>
+            <source src="FX/FX_Ruler.wav" type="audio/wav">
+        </audio>
+        
+        <script>
+            if(localStorage.getItem("backpack") == "True")
+            {
+                var audio = document.getElementById("ending_audio");
+                
+                audio.pause();
+            }
+        </script>
+        
+        <style>
+            body { background-color: darkgray; }
+            #text { width: 800px; margin:auto;}
+        </style>
+    </head>
+    
+    <body>
+        <div id="text">
+            <h1 align="center" id="ending_title"></h1>
+
+             <img width="800" height="450" style="display: block;margin-left: auto; margin-right: auto"  id="picture">
+
+            <p id="ending" align="center"></p> 
+
+            <h2 align="center" id="ending_type"></h2>
+
+            <h2 align="center"><a href="Z_Credits.html">Credits</a></h2>
+        </div>
+        
+        <script src="Script/Ending.js"></script>
+    </body>
+    
+</html>

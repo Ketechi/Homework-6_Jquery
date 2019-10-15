@@ -1,0 +1,16 @@
+:root {
+    --color-1: #0b132b;
+    --color-2: #1c2541;
+    --color-3: #3a506b;
+    --color-4: #40434e;
+    --color-5: #f46036;
+}
+
+body {
+    background-color: var(--color-1);
+}
+
+#footer {
+    background-color: #262626;
+    color: whitesmoke;
+}

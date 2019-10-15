@@ -1,0 +1,14 @@
+/* Import Bootstrap.css */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+/*Import navbar*/
+@import "navbar.css";
+
+/*Import color list*/
+@import "colors.css";
+
+/*Iframe size*/
+iframe {
+    height: 900px;
+    width: 80%;
+}

@@ -1,0 +1,15 @@
+.planet {
+    width: 45%;
+    height: 800px;
+}
+
+.selectors {
+    margin: 0px 0.4%;
+}
+
+.space {
+    background-image: url("../images/Space.gif");
+    background-repeat: revert;
+    background-size: 50% 800px;
+
+}

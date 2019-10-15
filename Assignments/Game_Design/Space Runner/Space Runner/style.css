@@ -1,0 +1,54 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	
+	background: #000000;
+	color: white;
+}
+
+html, body, canvas {
+	touch-action: none;
+	touch-action-delay: none;
+}
+
+@font-face {
+	font-family: 'Coalition_v2.';
+	src: url('fonts/coalition_v2..ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Spacetime';
+	src: url('fonts/spacetime.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'CFGlitchCity-Regular';
+	src: url('fonts/cfglitchcity-regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'defused';
+	src: url('fonts/defused.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PixelSplitter-Bold';
+	src: url('fonts/pixelsplitter-bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Dancing Script';
+	src: url('fonts/dancing script.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Alien-Encounters-Italic';
+	src: url('fonts/alien-encounters-italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Vtks Sonho';
+	src: url('fonts/vtks sonho.ttf') format('truetype');
+}
+

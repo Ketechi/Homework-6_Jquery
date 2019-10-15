@@ -1,0 +1,15 @@
+{
+  "name": "Asgn1",
+  "version": "1.0.0",
+  "dependencies": {},
+  "description": "Second homework: Bootstrap related",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "parcel-bundler": "^1.12.3",
+    "popper.js": "^1.15.0",
+    "sass": "^1.23.0-module.beta.1"
+  },
+  "author": "Carlos Quiles",
+  "license": "ISC"
+}

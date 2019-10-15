@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carlos Quiles| Dynamic HTML</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../../../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../../../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!--JavaScripts & CSS-->
+    <script src="../../../../script/Assignments/Advance_Web_Design/Assignment_4/imageSelector.js"></script>
+    <link rel="stylesheet" href="../../../../css/Asignments/">
+
+</head>
+<body>
+    <div class="container-fluid text-center">
+        <h1>Dynamic HTML</h1>
+        <p>Where possibilities are endless</p>
+
+    <!--Image Selector-->
+        <h2>Radio Button</h2>
+        <div><img src="image/1_Explore.gif" id="imageSelected"></div>
+        <div id="description" class="description"></div>
+        <iframe onmouseout="locations.landmarks.mapOut()" onmouseover="locations.landmarks.MapHover()" id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108523.41952018217!2d-147.8178812550605!3d64.84924705008929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x51325c908d3c2a5b%3A0x14f075bfe623af68!2sThe%20Aurora%20Chasers%20by%20Ronn%20%26%20Marketa%20Murray!5e0!3m2!1sen!2sus!4v1569201361964!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        <form id="selectRadio">
+            <input type="radio" name="images" value="Aurora" onclick="locations.images.Aurora()">Alaska's Aurora<br>
+            <input type="radio" name="images" value="Statue" onclick="locations.images.Statue()">Statue of Liberty<br>
+            <input type="radio" name="images" value="Mountain" onclick="locations.images.Mountain()">Australia's wild lands<br>
+        </form>
+        <br>
+        <select id="sizes" onchange="locations.sizes.setSize()">
+            <option value="SM">Small</option>
+            <option value="MD" selected>Medium</option>
+            <option value="LG">Large</option>
+        </select>
+    </div>
+</body>
+</html>

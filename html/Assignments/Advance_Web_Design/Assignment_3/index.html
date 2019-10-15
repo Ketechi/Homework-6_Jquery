@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../../../script/Assignments/Advance_Web_Design/Assignment_3/Currency.js"></script>
+    <script src="../../../../script/Assignments/Advance_Web_Design/Assignment_3/script.js"></script>
+    <link rel="stylesheet" href="../../../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../../../css/Asignments/Advance_Web_Design/Assignment_3/style.css">
+    <link rel="stylesheet" href="../../../../node_modules/popper.js/dist/popper.js">
+    <link rel="stylesheet" href="../../../../node_modules/jquery/dist/jquery.js">
+</head>
+    <body>
+        <main>
+            <h1>Homework 3: Introduction to JavaScript</h1>
+            <h3>Carlos Quiles</h3>
+        </main>
+
+        <!--Bootstrap container-->
+        <div class="container">
+
+            <div class="row text-center currenyStyle">
+                <div class="col-md-2 text-center">
+                    <img src="../../../../image/Assignments/Advance_Web_Design/Assignment_3/USA.png" id="questionedIMG">
+                </div>
+
+                <div class="col-md-3">
+                    <select id="questioned" name="questioned" onchange="currencySelector()" required>
+                        <option value="USA">&#36; | USA</option>
+                        <option value="EUR">&#8364; | EURO</option>
+                        <option value="YEN">&#165; | YEN</option>
+                        <option value="INDIAN">&#8377; | INDIAN</option>
+                        <option value="RUBLE">&#x20BD; | RUPLE</option>
+                        <option value="BITCOIN">&#8383; | BITCOIN</option>
+                        <option value="MONERO">&#625; | MONERO</option>
+                        <option value="LITECOIN">&#321; | LITECOIN</option>
+                        <option value="ETHEREUM">&#926; | ETHEREUM</option>
+                    </select>
+                    <p>From this currency</p>
+                </div>
+
+                <div class="col-md-2">
+                    <input type="text" id="numbers" value="100" oninput="currency()">
+                    <p>Currency amount</p>
+                </div>
+
+                <div class="col-md-3 text-right">
+                        <select id="answers" name="answers" onchange="currencySelector()" required>
+                            <option value="USA">&#36; | USA</option>
+                            <option value="EUR">&#8364; | EURO</option>
+                            <option value="YEN">&#165; | YEN</option>
+                            <option value="INDIAN">&#8377; | INDIAN</option>
+                            <option value="RUBLE">&#x20BD; | RUPLE</option>
+                            <option value="BITCOIN">&#8383; | BITCOIN</option>
+                            <option value="MONERO">&#625; | MONERO</option>
+                            <option value="LITECOIN">&#321; | LITECOIN</option>
+                            <option value="ETHEREUM">&#926; | ETHEREUM</option>
+                        </select>
+                    <p>To this currency</p>
+                </div>
+
+                <div class="col-md-2">
+                    <img src="../../../../image/Assignments/Advance_Web_Design/Assignment_3/USA.png" id="answersIMG">
+                </div>
+            </div>
+
+            <div>
+                <h1 id="total" class="text-center">Enter a value</h1>
+            </div>
+
+        </div>
+    </body>
+</html>

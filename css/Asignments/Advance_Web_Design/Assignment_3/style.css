@@ -1,0 +1,20 @@
+/*Align letters*/
+main {
+    align-content: center;
+    text-align: center;
+}
+
+/*Currency Styles & Positions*/
+.currenyStyle {
+    padding: 15% 5%;
+}
+
+/*Body & image*/
+body {
+    background-color: #506987;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
