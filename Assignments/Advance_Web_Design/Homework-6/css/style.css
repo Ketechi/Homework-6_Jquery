@@ -1,15 +1,23 @@
 .planet {
-    width: 45%;
-    height: 800px;
+    width: 100%;
+    height: 720px;
 }
 
 .selectors {
-    margin: 0px 0.4%;
+    margin: 0px 0%;
 }
 
 .space {
     background-image: url("../images/Space.gif");
-    background-repeat: revert;
-    background-size: 50% 800px;
+
+}
+
+.thumbnailImg {
+    margin: 0px 2%;
+}
+
+#name {
+    padding-top: 15%;
+    color: whitesmoke;
 
 }
