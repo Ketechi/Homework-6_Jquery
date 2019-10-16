@@ -21,3 +21,33 @@
     color: whitesmoke;
 
 }
+
+.Details {
+    color: white;
+}
+
+table {
+    border: 2pc white;
+    font-size: 1.3em;
+}
+
+table tr {
+    text-align: left;
+}
+
+table th {
+    padding: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    padding-bottom: 10%;
+}
+
+h3 {
+    padding-top: 10%;
+}
+
+h1 {
+    padding-bottom: 6%;
+}
