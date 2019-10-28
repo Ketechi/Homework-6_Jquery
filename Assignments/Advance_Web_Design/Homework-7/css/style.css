@@ -1,0 +1,12 @@
+#body {
+    background-color: #262626;
+    color: #005db4;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+input {
+    margin: 20px;
+}
